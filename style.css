@@ -11,47 +11,6 @@ body {
     min-height: 100vh;
 }
 
-/* Dark mode (auto-detects system settings) */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #222;  /* Dark grey */
-        color: white;
-    }
-
-    .container {
-        background-color: #333;  /* Dark container background */
-        color: white;
-    }
-
-    h1, h2, h3, p, ol, li, details, summary {
-        color: white;
-    }
-
-    a {
-        color: #A9A9A9;
-    }
-
-    a:hover {
-        color: #E5E4E2; /* Light hover link color */
-    }
-
-    hr {
-        background-color: rgba(255, 255, 255, 0.2); /* Lighter line for dark mode */
-    }
-
-    ol, li {
-        color: #ddd; /* Lighter text for ordered lists */
-    }
-
-    details {
-        background-color: #444; /* Darker background for details section */
-    }
-
-    summary {
-        color: #ddd; /* Lighter color for summary text */
-    }
-}
-
 .container {
     max-width: 700px;
     background: white;
@@ -165,4 +124,45 @@ summary::marker {
 
 details[open] {
     padding-bottom: 0.1rem;
+}
+
+/* Dark mode (auto-detects system settings) */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;  /* Dark grey */
+        color: white;
+    }
+
+    .container {
+        background-color: #333;  /* Dark container background */
+        color: white;
+    }
+
+    h1, h2, h3, p, ol, li, details, summary {
+        color: white;
+    }
+
+    a {
+        color: #A9A9A9;
+    }
+
+    a:hover {
+        color: #E5E4E2; /* Light hover link color */
+    }
+
+    hr {
+        background-color: rgba(255, 255, 255, 0.2); /* Lighter line for dark mode */
+    }
+
+    ol, li {
+        color: #ddd; /* Lighter text for ordered lists */
+    }
+
+    details {
+        background-color: #444; /* Darker background for details section */
+    }
+
+    summary {
+        color: #ddd; /* Lighter color for summary text */
+    }
 }
