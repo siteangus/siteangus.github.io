@@ -17,6 +17,40 @@ body {
         background-color: #222;  /* Dark grey */
         color: white;
     }
+
+    .container {
+        background: #333; /* Dark container background */
+        color: white; /* Light text in container */
+    }
+
+    h1, h2, h3, p {
+        color: white; /* Light text in headings and paragraphs */
+    }
+
+    a {
+        color: #A9A9A9; /* Lighter link color in dark mode */
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #E5E4E2; /* Light hover link color */
+    }
+
+    hr {
+        background-color: rgba(255, 255, 255, 0.2); /* Lighter line for dark mode */
+    }
+
+    ol, li {
+        color: #ddd; /* Lighter text for ordered lists */
+    }
+
+    details {
+        background: #444; /* Darker background for details section */
+    }
+
+    summary {
+        color: #ddd; /* Lighter color for summary text */
+    }
 }
 
 .container {
