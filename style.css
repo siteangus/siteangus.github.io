@@ -14,8 +14,8 @@ body {
 /* Dark mode (auto-detects system settings) */
 @media (prefers-color-scheme: dark) {
     body, .container, h1, h2, h3, p, a, ol, li, details, summary {
-        background-color: #222;  /* Dark grey */
-        color: white;
+        background-color: #222 !important;  /* Dark grey */
+        color: white !important;
     }
 
     .container {
