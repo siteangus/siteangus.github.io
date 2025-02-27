@@ -13,26 +13,25 @@ body {
 
 /* Dark mode (auto-detects system settings) */
 @media (prefers-color-scheme: dark) {
-    body, .container, h1, h2, h3, p, a, ol, li, details, summary {
-        background-color: #222 !important;  /* Dark grey */
-        color: white !important;
+    body {
+        background-color: #222;  /* Dark grey */
+        color: white;
     }
 
     .container {
-        background: #333; /* Dark container background */
-        color: white; /* Light text in container */
+        background-color: #333;  /* Dark container background */
+        color: white;
     }
 
-    h1, h2, h3, p {
-        color: white; /* Light text in headings and paragraphs */
+    h1, h2, h3, p, ol, li, details, summary {
+        color: white;
     }
 
     a {
-        color: #A9A9A9; /* Lighter link color in dark mode */
+        color: #A9A9A9;
     }
 
     a:hover {
-        text-decoration: underline;
         color: #E5E4E2; /* Light hover link color */
     }
 
@@ -45,7 +44,7 @@ body {
     }
 
     details {
-        background: #444; /* Darker background for details section */
+        background-color: #444; /* Darker background for details section */
     }
 
     summary {
