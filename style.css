@@ -42,7 +42,7 @@ h3 {
 p {
     margin: 0.59rem 0;
     font-size: 0.97rem;
-    line-height: 1.54;
+    line-height: 1.74;
     color: #233;
 }
 
@@ -80,7 +80,7 @@ ol {
 
 li {
     font-size: 0.96rem;
-    line-height: 1.6;
+    line-height: 1.54;
     color: #444;
     margin-bottom: 0.5rem;
 }
@@ -96,15 +96,20 @@ details {
 
 details ol {
     margin-top: 0.87rem; /* Adds space between the summary and the list */
-    padding-left: 2.28rem; /* Indent the list for readability */
+    padding-left: 3.02rem; /* Indent the list for readability */
 }
 
 summary {
+    margin-left: 0.45rem;
     margin-top: 1rem;
     padding-left: 0rem;
     font-size: 0.97rem;
     color: #222;
     cursor: pointer;
+}
+
+summary span {
+    margin-left: 0.45rem; /* Adds space between triangle and text */
 }
 
 summary::marker {
