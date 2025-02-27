@@ -25,6 +25,20 @@ h1 {
     margin-bottom: 10px;
 }
 
+h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 1.5rem 0 1rem;
+    color: #242424;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1.25rem 0 0.75rem;
+    color: #333;
+}
+
 p {
     font-size: 18px;
     line-height: 1.6;
@@ -32,11 +46,55 @@ p {
 }
 
 a {
-    color: #0070f3;
+    color: #C0C0C0;
     text-decoration: none;
     font-weight: 500;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 1.5rem 0;
+}
+
+ol {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 0.5rem;
+}
+
+details {
+    background: #f7f7f7;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+details:hover {
+    background: #efefef;
+}
+
+summary {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #222;
+    cursor: pointer;
+}
+
+details[open] {
+    background: #eaeaea;
+    padding-bottom: 0.5rem;
 }
