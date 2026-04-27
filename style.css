@@ -79,6 +79,10 @@ ol ol {
     list-style-type: lower-alpha;
 }
 
+ul {
+  margin-left: -18px;
+}
+
 ol {
     padding-left: 1.5rem;
     margin: 0.36rem 0;
@@ -89,6 +93,7 @@ li {
     line-height: 1.54;
     color: #444;
     margin-bottom: 0.5rem;
+    padding-left: 8px;
 }
 
 details {
